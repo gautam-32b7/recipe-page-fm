@@ -1,0 +1,30 @@
+/* 1024px */
+@media (max-width: 1024px) {
+  .content-container h1 {
+    font-size: 4rem;
+  }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+  .content-container h1 {
+    font-size: 3.2rem;
+  }
+}
+
+/* 640px */
+@media (max-width: 640px) {
+  .container {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+/* 384px */
+@media (max-width: 384px) {
+  .image-container img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0;
+  }
+}
